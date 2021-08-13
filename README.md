@@ -17,6 +17,8 @@ https://github.com/WojciechMula/base64simd/blob/master/encode/unpack_bigendian.c
 ZEN3 において、intel の core i 系と同じ実行速度に改善された。
 core i 系では、どのような回路を組んでいるのか関心を引かれるほどに pdep 命令の実行速度が速い。
 
+（補足）私は Websocket をよく利用するため、Websocket に利用しやすい形で実装している。
+
 # リポジトリの内容
 * sha1.asm : sha1 ハッシュ値を出力する
 * base64_BE.asm : base64 文字列をビッグエンディアンで出力する
