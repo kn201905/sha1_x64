@@ -3,6 +3,9 @@ global G_sha1_block
 extern DBG_cout_LF
 extern DBG_cout_pushed_128
 
+bits 64			; 64bit コードの指定
+default rel		; デフォルトで RIP相対アドレシングを利用する
+
 
 ; =========================================
 section .text
